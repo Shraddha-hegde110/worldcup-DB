@@ -32,27 +32,31 @@ This project sets up a PostgreSQL database with information about World Cup game
    sudo apt update
    sudo apt install postgresql postgresql-contrib
 
-2. Start the PostgreSQL service:
-sudo service postgresql start
+2. **Start the PostgreSQL** service:
+   ```bash
+   sudo service postgresql start
 
-3. Create the database and tables:
-psql -U postgres -f worldcup.sql
+3. **Create the database and tables**
+   ```bash
+   psql -U postgres -f worldcup.sql
 
-4.Insert the data:
-./insert_data.sh
+4.**Insert the data**
+   ```bash
+   ./insert_data.sh
 
-5. Run queries to see the results:
-./queries.sh
+5.**Run queries to see the results**
+   ```bash
+   ./queries.sh
 
 
-🧠 Learning Objectives
+## 🧠 Learning Objectives
+
 Writing CREATE TABLE, INSERT, JOIN, GROUP BY, and SELECT queries
-
 Using Bash to execute SQL commands
-
 Understanding relational database concepts
 
-📌 Author
+## 📌 Author
+
 This project was developed by A Shraddha's as part of freeCodeCamp’s Relational Database Certification.
 
 
